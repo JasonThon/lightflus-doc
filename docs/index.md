@@ -3,9 +3,9 @@
 ## What is Lightflus?
 
 - Lightflus is a *Cloud-Native Dataflow* framework designed for a common purpose;
-- You can be free to maintain a complex dataflow system with Lightflus. Empower your business with a more fast and
+- You can be free to maintain a complicated dataflow system with Lightflus. Empower your business with a faster and
   resilient data infra;
-- Lightflus can be integrated with your cloud infra vendor (AWS, GCP, Azure) very easy;
+- Lightflus can be integrated with mainstream cloud vendor (AWS, GCP, Azure) very easy;
 
 ## Features of Lightflus
 
@@ -28,7 +28,7 @@
   traditional
   way.
 
-## Architecture of Lightflus
+## Architecture
 
 ![arch.png](arch.png)
 
@@ -36,7 +36,7 @@
 * Lightflus process fetched data and sink to downstream storages;
     * If downstream storage generate change stream, Lightflus can also capture it;
 
-## The difference between Lightflus and Flink
+## Difference between Lightflus and Flink
 
 1. *Cloud-Native*: Lightflus is born for cloud. It's much more agile than Flink. Your team can manage streaming data and
    integrate with existing infrastructure more efficient;
