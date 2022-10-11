@@ -7,7 +7,7 @@
 Welcome to join
 our [Slack](https://join.slack.com/share/enQtNDE5MjkxODQ3NjgyMS1jMDRiODU2M2MxOWUwZDYyN2Q3NmFlNWRiYTM5NWJkNDNhM2UyYmU1ZWIwNWIzZmFjM2Y4NDhiZWJlNGU0YTdm)!
 .
-We provide standard customer support (like QA, bug & feature tracing, new releases version) in this
+We provide standard customer support (like QA, bugs & features & new released version tracing) in this
 workspace.
 
 ### Workspace for Enterprise
