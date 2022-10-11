@@ -1,0 +1,8 @@
+site_name: Lighflus Document
+theme: readthedocs
+nav:
+  - Overview: index.md
+  - Installation Guide: guide.md
+  - Examples: examples.md
+  - Command Line Tool: cli.md
+  - Customer Support: community.md
