@@ -38,12 +38,12 @@
 
 ## Difference between Lightflus and Flink
 
-1. *Cloud-Native*: Lightflus is born for cloud. It's much more agile than Flink. Your team can manage streaming data and
+1. ***Cloud-Native***: Lightflus is born for cloud. It's much more agile than Flink. Your team can manage streaming data and
    integrate with existing infrastructure more efficient;
-2. *Lower Cost*: Flink API is written by Java and its runtime is complicated. You need to recruit a professional team to
-   handle this but, the price is very expensive (both in economy and management). Lightflus can offer both big companies
-   and small teams a resilient streaming data framework to help them only focus on the core business. Anyone in your
-   current tech team can be a dataflow engineer.
-3. *Customer Support*: Flink is an open source framework. This means Community is the only place you can ask for help.
+2. ***Lower Cost***: Flink API is written by Java and its runtime is sophisticated. You need to recruit a professional team
+   to handle this. The price is very high (time-consuming, cost-expensive and management-risky). Lightflus can offer
+   both big companies and small teams a resilient streaming data framework to help them only focus on the core business.
+   **Anyone in your current tech team can be a dataflow engineer**.
+3. ***Customer Support***: Flink is an open source framework. This means Community is the only place you can ask for help.
    As a commercial company, we provide customer support for each enterprise user. You can solve your problems much
    quicker.

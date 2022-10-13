@@ -4,5 +4,6 @@ nav:
   - Overview: index.md
   - Installation Guide: guide.md
   - Examples: examples.md
+  - Dataflow API: api.md
   - Command Line Tool: cli.md
   - Customer Support: community.md

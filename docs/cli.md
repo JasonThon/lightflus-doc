@@ -42,3 +42,9 @@ If:
 * token has been cached in config file `${HOME}/.lightflus/config`
 
 ## OPERATIONS
+
+| Operation | Syntax                                | Description                                                               |
+|:----------|:--------------------------------------|:--------------------------------------------------------------------------|
+| create    | `lightflus create RESOURCE [flags]`   | Create resources like task, cluster, etc                                  |
+| apply     | `lightflus apply -f FILENAME [flags]` | Apply file. Type suffix supported: <br/> 1. ts <br/> 2. yaml <br/> 3. yml |
+| 
