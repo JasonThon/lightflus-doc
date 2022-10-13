@@ -10,7 +10,6 @@
 ## Features of Lightflus
 
 - *Provide Typescript DataStream API,* more lightweight compared with Java and lower learning curve;
-- *Easy onboarding*: you can apply your dataflow jobs on Lightflus simply by CLI;
 - *Pay-as-you-go:* We provide three instance options on AWS marketplace, you can choose or upgrade to any of them
   as you need.
     - *Small instance*: for small throughput scenery, below 1 thousand elements/s;
@@ -20,13 +19,13 @@
   use Checkpoint to implement Fault-Tolerance which can promote the scalability and make sure *exactly-once* schema;
 - *Implemented by Rust*: Rust is a new programming language which keep good balance between memory security and
   performance. Thanks to Rust, we build Lightflus as a robust and high performance system.
-- *Powered by Deno*: Deno is a Javascript runtime co-created by *Ryan Dahl* (He also create Node.JS). We use Deno as an
+- *Powered by Deno*: Deno is a Javascript runtime co-created by *Ryan Dahl* (He also creates Node.JS). We use Deno as an
   embedded runtime for UDF Operator.
-- *Source(Sink) Connector*: We will support more Source (Sink) Connectors. For now, only Kafka and ElasticSearch
-  Connector is provided.
+- *Source(Sink) Connector*: We will support more Source (Sink) Connectors in the future. Even more, we can let users
+  define their own connectors by themselves.
 - *SQL Support* (will release in next version): We will release SQL supporting in next version but, not in the
-  traditional
-  way.
+  traditional way.
+- *Web UI* (will release in next version): we will provide a web ui in next version.
 
 ## Architecture
 
@@ -36,14 +35,18 @@
 * Lightflus process fetched data and sink to downstream storages;
     * If downstream storage generate change stream, Lightflus can also capture it;
 
-## Difference between Lightflus and Flink
+## Why You Should Try Lightflus?
 
-1. ***Cloud-Native***: Lightflus is born for cloud. It's much more agile than Flink. Your team can manage streaming data and
+1. ***Cloud-Native***: Lightflus is born for cloud. It's much more agile than Flink. Your team can manage streaming data
+   and
    integrate with existing infrastructure more efficient;
-2. ***Lower Cost***: Flink API is written by Java and its runtime is sophisticated. You need to recruit a professional team
-   to handle this. The price is very high (time-consuming, cost-expensive and management-risky). Lightflus can offer
-   both big companies and small teams a resilient streaming data framework to help them only focus on the core business.
-   **Anyone in your current tech team can be a dataflow engineer**.
-3. ***Customer Support***: Flink is an open source framework. This means Community is the only place you can ask for help.
-   As a commercial company, we provide customer support for each enterprise user. You can solve your problems much
-   quicker.
+2. ***Lower Cost***: Mainstream streaming framework link Flink, Storm, their API is written by Java and the runtime is
+   sophisticated. You need to recruit a professional team to handle this. The price is very high (time-consuming,
+   cost-expensive and management-risky). Lightflus can offer both big companies and small teams a resilient streaming
+   data framework to help them only focus on the core business. **Anyone in your current tech team can be a dataflow
+   engineer**.
+3. ***Customer Support***: Most streaming framework is an open source. This means Community is the only place you can
+   ask for help. As a commercial company, we provide customer support for each enterprise user. You can solve your
+   problems much quicker.
+4. ***Easy On-boarding***: All-in-one product, you can quickly set up a Lightflus environment by typing several commands
+   in the terminal or your Slack's channel and deploy your application on remote cluster locally. 
