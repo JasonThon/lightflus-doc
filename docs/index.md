@@ -3,9 +3,9 @@
 ## What is Lightflus?
 
 - Lightflus is a *Cloud-Native Dataflow* framework designed for a common purpose;
-- You can be free to maintain a complicated dataflow system with Lightflus. Empower your business with a faster and
-  resilient data infra;
-- Lightflus can be integrated with mainstream cloud vendor (AWS, GCP, Azure) very easy;
+- You can be free to maintain a complicated dataflow system with the help of Lightflus. Empower your business with a
+  faster and resilient data infra;
+- Lightflus can be integrated with mainstream cloud providers (AWS, GCP, Azure) very easy;
 
 ## Features of Lightflus
 
@@ -38,15 +38,13 @@
 ## Why You Should Try Lightflus?
 
 1. ***Cloud-Native***: Lightflus is born for cloud. It's much more agile than Flink. Your team can manage streaming data
-   and
-   integrate with existing infrastructure more efficient;
-2. ***Lower Cost***: Mainstream streaming framework link Flink, Storm, their API is written by Java and the runtime is
-   sophisticated. You need to recruit a professional team to handle this. The price is very high (time-consuming,
-   cost-expensive and management-risky). Lightflus can offer both big companies and small teams a resilient streaming
-   data framework to help them only focus on the core business. **Anyone in your current tech team can be a dataflow
-   engineer**.
-3. ***Customer Support***: Most streaming framework is an open source. This means Community is the only place you can
-   ask for help. As a commercial company, we provide customer support for each enterprise user. You can solve your
-   problems much quicker.
-4. ***Easy On-boarding***: All-in-one product, you can quickly set up a Lightflus environment by typing several commands
-   in the terminal or your Slack's channel and deploy your application on remote cluster locally. 
+   and integrate with your cloud infrastructure more efficient;
+2. ***Lower Cost***: Mainstream streaming framework like Flink/Storm, you need to recruit a professional team to handle
+   this. The price is very high (time-consuming, cost-expensive and management-risky). Lightflus can offer both big
+   companies and small teams a resilient streaming data framework to help them only focus on the core business. **Anyone
+   in your team can be a dataflow engineer in one hour**.
+3. ***Customer Support***: Most streaming framework is open-source. This means community is the only place you can
+   ask for help. As a commercial company, we provide customer support for each user. You can solve your problems much
+   quicker.
+4. ***All-in-one***: You can quickly set up a Lightflus environment by typing several commands in the terminal or your
+   Slack's channel and deploy your application on remote cluster locally. 

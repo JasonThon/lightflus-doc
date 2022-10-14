@@ -6,10 +6,9 @@ Lightflus provide Typescript API for all developers.
 
 Lightflus is implemented by *Rust* and powered by *Deno* (A JS runtime, backed by V8 engine). However, for the
 purpose of performance, we turn to use Deno as an embedded module, not a runtime container. This means, We **support
-limited numbers of third-party libs** and **user-defined types cannot be imported correctly** now (We are trying to find
-a new way). Moreover, maybe some features of JavaScript/TypeScript is also not supported yet.
+limited third-party libs** and **user-defined classes imported in lambda is unsupported now**.
 
-Third-party libs we supported are listed in the following table:
+Third-party libs we support are listed in the following table:
 
 | Lib | Npm Link | Description |
 |:----|:---------|:------------|
@@ -20,17 +19,17 @@ Typescript's type system is huge distinct from Rust. We have to clarify the type
 
 For now, all mapping relations between Typescript and Rust in Lightflus are as follows:
 
-| Type in Typescript | Type in Rust                          | Description                                                                                                               |
-|:-------------------|:--------------------------------------|:--------------------------------------------------------------------------------------------------------------------------|
-| number             | u32, u64, i32, i64, f32, f64, u8, u16 | `number` in Typescript represents any number type value in Rust.                                                          |
-| bigint             | i64                                   | `bigint` in Typescript will be recognized as `i64` in Rust                                                                |
-| string             | String, str                           | All native types are supported                                                                                            |
-| object             | BTreeMap                              | object can be represented as map in Rust. However, the value will be serialized as byte array                             |
-| boolean            | bool                                  | All native types are supported                                                                                            |                                                                             |
-| void               | void                                  | All native types are supported                                                                                            |
-| enum               | u32                                   | `enum` in Typescript will be recognized as unsigned integer                                                               |
-| array              | Vec                                   | `array` in Typescript will be recognized as `Vec` in Rust. The generic type `K` must be the types that Lightflus supports |
-| Tuple2             | Tuple2                                | The generic types `(K,V)` of `Tuple2` must be Lightflus supported types.                                                  | 
+| Type in Typescript | Type mapping in Rust                  | Description                                                                                                       |
+|:-------------------|:--------------------------------------|:------------------------------------------------------------------------------------------------------------------|
+| number             | u32, u64, i32, i64, f32, f64, u8, u16 | `number` in Typescript represents any number type value in Rust.                                                  |
+| bigint             | i64                                   | `bigint` in Typescript will be recognized as `i64` in Rust                                                        |
+| string             | String, str                           | All native types are supported                                                                                    |
+| object             | BTreeMap                              | object can be represented as map in Rust. However, the value will be serialized as byte array                     |
+| boolean            | bool                                  | All native types are supported                                                                                    |                                                                             |
+| void               | void                                  | All native types are supported                                                                                    |
+| enum               | u32                                   | `enum` in Typescript will be recognized as unsigned integer                                                       |
+| array              | Vec                                   | `array` in Typescript will be recognized as `Vec` in Rust.                                                        |
+| user-defined type  | BTreeMap                              | As user-defined type in Typescript will be compiled into object. It's mapping type in Rust is the same as object. |
 
 ## DATAFLOW TRANSFORMATIONS
 
