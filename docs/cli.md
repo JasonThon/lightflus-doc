@@ -45,6 +45,6 @@ If:
 
 | Operation | Syntax                                | Description                                                               |
 |:----------|:--------------------------------------|:--------------------------------------------------------------------------|
-| create    | `lightflus create RESOURCE [flags]`   | Create resources like task, cluster, etc                                  |
+| create    | `lightflus create RESOURCE [flags]`   | Create resources like `task`, `cluster`, etc                              |
 | apply     | `lightflus apply -f FILENAME [flags]` | Apply file. Type suffix supported: <br/> 1. ts <br/> 2. yaml <br/> 3. yml |
-| 
+| config    | `lightflus config [flags]`            | update configurations                                                     |
